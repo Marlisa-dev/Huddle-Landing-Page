@@ -1,0 +1,547 @@
+
+html, body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1 h2 h3 h4 h5 h6{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*header section*/
+
+.header{
+    margin: 40px;
+}
+.logo{
+    display: inline-block;
+}
+.logo img{
+    width: 140px;
+}
+.free-trial{
+    display: inline-block;
+    float: right;
+    border: 1px solid hsl(322, 100%, 66%);
+    padding: 1px 20px 3px;
+    border-radius: 20px;
+}
+.free-trial a{
+    text-decoration: none;
+    font-size: 12px;
+    color: hsl(322, 100%, 66%);
+}
+
+/*top content section*/
+.top-content{
+    margin: 120px auto;   
+}
+/*.container{
+    max-width: 90%;
+    margin: 0 auto;
+}*/
+.top-intro{
+    text-align: center;
+}
+.top-intro h1{
+    font-size: 2.5rem;
+    max-width: 80%;
+    margin: auto;
+}
+.top-intro p{
+    max-width: 42%;
+    margin: 0 auto;
+    font-size: 14px;
+    color: hsl(192, 100%, 9%);
+}
+.get-started{
+    margin-top: 40px;
+}
+.get-started a{
+    text-decoration: none;
+    color:white;
+    font-weight: 600;
+    font-size: 11px;
+    background-color: hsl(322, 100%, 66%);
+    padding: 15px 84px;
+    border-radius: 25px;  
+}
+.intro-img{
+    margin-top: 70px;   
+}
+.intro-img img{
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+.users{
+    margin: 80px auto;
+    max-width: 65%;
+}
+.users img{
+    width: 18%;
+}
+.users h2{
+    font-size: 3.5rem;
+    color: hsl(192, 100%, 9%);
+    margin: 0;
+}
+.users p{
+    color: #999999;
+    font-size: 14px;
+    text-align: center;
+}
+.communities{
+    display: inline-block;  
+}
+.messages{
+    display: inline-block;
+    float: right; 
+}
+
+/*grow section*/
+
+#grow-together{
+    width: 100%;
+    margin-left: 0;
+}
+#grow-together .top-curve{
+    width: 100%;
+    margin-bottom: -7px;
+}
+#grow-together .top-curve img{
+    width: 100%;
+}
+#grow-together .grow-content{
+    background-color: hsl(207, 100%, 98%);
+    height: 345px;
+    width: 100%;  
+}
+#grow-together .grow-left {
+    display: inline-block;
+    width: 37%;
+    margin-left: 130px;
+    padding-top: 91px;
+}
+#grow-together .grow-left h3{
+    font-size: 1.4rem;
+}
+#grow-together .grow-left p{
+    font-size: 14px;
+}
+#grow-together .grow-right{
+    display: inline-block;
+    width: 45%; 
+    float: right;
+}
+#grow-together .grow-right img{
+    width: 70%;  
+}
+#grow-together .bottom-curve{
+    width: 100%;
+}
+#grow-together .bottom-curve img{
+    width: 100%;
+}
+
+/*conversations section*/
+
+#conversations{
+    margin: 70px auto;
+}
+#conversations .convo-left{
+    display: inline-block;
+    width: 40%; 
+    margin-left: 125px;
+}
+#conversations .convo-left img{
+    width: 70%;
+}
+#conversations .convo-right{
+    display: inline-block;
+    float: right;
+    width: 48%;
+    padding-top: 55px;
+}
+#conversations .convo-right h3{
+    font-size: 1.4rem;
+}
+#conversations .convo-right p{
+    font-size: 14px;
+    padding-right: 80px;
+}
+
+/*users section*/
+
+#your-users{
+    margin: 80px auto;
+}
+#your-users .user-top-img img{
+    width: 100%;
+    margin-bottom: -6px;
+}
+#your-users .users-content{
+    background-color: hsl(207, 100%, 98%);
+    height: 350px;
+}
+#your-users .users-left {
+    display: inline-block;
+    width: 37%;
+    margin-left: 130px;
+    padding-top: 74px;
+}
+#your-users .users-left h3{
+    font-size: 1.4rem;
+}
+#your-users .users-left p{
+    font-size: 14px;
+}
+#your-users .users-right{
+    display: inline-block;
+    width: 45%; 
+    float: right;
+}
+#your-users .users-right img{
+    width: 70%;  
+}
+
+#your-users .user-bottom-img img{
+    width: 100%;
+}
+
+/*build section*/
+
+#build{
+    margin: 100px auto 100px;
+    text-align: center; 
+}
+#build h2{
+    margin-top: 50px;
+    font-size: 2rem;
+}
+
+/*company info section*/
+
+#curved-img-cont{
+    margin-bottom: -6px;
+}
+#curved-img-cont img{
+    width: 100%;
+}
+#company-info .contact{
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    padding: 50px 40px 20px 60px;
+}
+#company-info .contact-left{
+    width: 50%;
+    display: inline-block;
+    max-width: 25%;
+    padding-left: 15px;
+}
+#company-info .contact-left .company-logo img{
+    font-size: 20px;
+    color: white;
+}
+#company-info .contact-left .company-logo h4{
+    font-size: 2.8rem;
+    margin: 0;
+}
+#company-info .contact-left p{
+    font-size: 12px;
+}
+#company-info .contact-left p img{
+    width: 5%;
+    margin-right: 7px;
+}
+#company-info .contact-right{
+    width: 50%;
+    display: inline-block;
+    float: right;
+    max-width: 40%
+}
+#company-info .contact-right h5{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+}
+#company-info .contact-right p{
+    font-size: 12px;
+    max-width: 68%;
+    margin-bottom: 20px;
+}
+#company-info .contact-right input[type="email"]{
+    height: 29px;
+    width: 245px;
+    margin-right: 25px;
+    border-radius: 3px;
+    border: none;
+}
+#company-info .contact-right button{
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    border: none;
+    padding: 9px 35px;
+    border-radius: 3px;
+}
+#company-info .contact .social-media{
+    margin-top: 35px;
+    text-align: center;
+    color: white;
+}
+.fab{
+    padding: 4px;
+}
+
+/*Mobile Phone Media queries*/
+
+@media only screen and (max-width: 500px) {
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+    .header{
+        margin: 20px;
+    }
+    .logo{
+        padding-top: 8px;
+    }
+    .logo img{
+        width: 100px;
+    }
+    .free-trial{
+        padding: 1px 15px 3px;
+    }
+    .free-trial a{        
+        font-size: 10px;     
+    }
+    .top-content {
+        margin: 90px auto;
+    }
+
+    .top-intro h1{
+        font-size: 1.2rem;
+        margin-bottom: 20px;     
+    }
+    .top-intro p{
+        max-width: 77%;     
+        font-size: 11px;       
+    }
+    .get-started a{       
+        padding: 10px 45px;       
+    }
+    .users {      
+        max-width: 46%;
+    }
+    .users img{
+        width: 14%;
+    }
+    .users h2{
+        font-size: 3rem;
+        text-align: center;       
+    }
+    .communities{
+        display: block;      
+        margin-bottom: 70px;
+    }
+    .messages{
+        display: block;
+        margin-bottom: 55px; 
+    }
+    #grow-together .grow-content {       
+        height: 540px;       
+    }
+    #grow-together .grow-left {
+        display:block;
+        width: 100%;
+        margin: 0;
+        padding-top: 15px;
+    }
+    #grow-together .grow-left h3 {
+        text-align: center;
+    }
+    #grow-together .grow-left p {
+        text-align: center;
+        font-size: 13px;
+        margin: 6%;
+    }
+    #grow-together .grow-right {
+        display:block;
+        width: 100%;     
+    }
+    #grow-together .grow-right img {
+        width: 75%;
+        margin: 10%;
+    }
+    #conversations {
+        margin: 35px auto 70px;
+    }      
+    #conversations .convo-left{
+        display: block;
+        width: 100%;
+        margin: 0;      
+    }
+    #conversations .convo-left img {
+        width: 80%;
+        margin: 10%;
+    }
+    #conversations .convo-right{
+        display: block;
+        width: 100%;     
+    }
+    #conversations .convo-right h3 {
+        text-align: center;
+    }
+    #conversations .convo-right p {
+        text-align: center;
+        font-size: 13px;
+        margin: 5% 5% 18% 5%;
+        padding: 0;
+    }
+    #your-users .users-content {      
+        height: 550px;
+    }
+    #your-users .users-left {
+        display: block;
+        width: 100%;
+        margin: 0; 
+        padding: 10px;        
+    }
+    #your-users .users-left h3 {
+        text-align: center;
+    }
+    #your-users .users-left p {
+        text-align: center;
+        font-size: 13px;
+        margin: 7%;
+    }
+    #your-users .users-right {
+        display: block;
+        width: 100%;       
+    }
+    #your-users .users-right img {
+        width: 80%;
+        margin: 10%;
+    }
+    #build {
+        margin: 80px auto;      
+    }
+    #build h2 {      
+        font-size: 1.6rem;
+    }
+    #company-info{
+        height: 500px;
+    }
+    #company-info .contact {
+        height: 465px;
+        padding: 5px;
+    }
+    #company-info .contact-left{
+        max-width: 93%;
+        width: 100%;
+        display: block;
+        margin: auto;     
+    }
+    #company-info .contact-left .company-logo{
+        display: inline-block;
+    }
+    #company-info .contact-left .company-logo h4{
+        display: inline-block;
+        font-size: 34px;      
+    }
+    #company-info .contact-left p {
+        font-size: 13px;
+    }
+    #company-info .contact-right{
+        width: 100%;
+        display: block;
+        max-width: 93%;      
+    }
+    #company-info .contact-right h5 {
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 10px;       
+    }
+    #company-info .contact-right p {    
+        max-width: 90%;
+    }
+    #company-info .contact-right input[type="email"] {      
+        width: 90%;
+        margin-bottom: 12px;       
+    }
+    #company-info .contact-right button {
+        display: inline-block;
+        margin-right: 8%;
+        float: right;
+    }
+    .fab {
+        padding: 10px;
+    }
+    .attribution {
+        display: none;      
+    }  
+}
+
+/*Laptop Media queries*/
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    #grow-together .grow-left {        
+        margin-left: 100px;
+        padding-top: 75px;
+    }
+    #grow-together .grow-content {      
+        height: 350px;       
+    }
+    #grow-together .grow-left p {
+        font-size: 15px;
+    }
+    #grow-together .grow-right {
+        padding-top: 72px;
+    }
+    #conversations .convo-left {  
+        margin-left: 100px;
+    }
+    #conversations .convo-right {        
+        width: 43%;
+        padding-top: 5px;
+    }
+    #conversations .convo-right p {
+        font-size: 15px;
+        padding-right: 73px;
+    }
+    #your-users .users-content {      
+        height: 337px;
+    }
+    #your-users .users-left {      
+        margin-left: 100px;      
+    }
+    #your-users .users-left p {
+        font-size: 15px;
+    }
+    #your-users .users-right {      
+        padding-top: 82px;
+    }
+    #company-info .contact {   
+        padding: 20px;
+    }
+    #company-info .contact-left {      
+        max-width: 40%;       
+    }
+    #company-info .contact-right {      
+        max-width: 42%;
+    }
+    #company-info .contact-right p {     
+        max-width: 90%;     
+    }
+    #company-info .contact-right button {
+        margin-top: 10px;
+    }
+}
+
+
